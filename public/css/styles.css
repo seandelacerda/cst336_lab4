@@ -1,4 +1,41 @@
 body {
     background-color: #CBE2F6;
     text-align: center;
+    color: #efefef;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #efefef;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+}
+
+footer > div.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.home {
+    background-image: url("../img/solar-system.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.home > p {
+    padding: 0 2rem;
 }
